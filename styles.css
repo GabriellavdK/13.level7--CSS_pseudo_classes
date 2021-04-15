@@ -1,0 +1,74 @@
+/* Menu items */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    padding-left: 0;
+    margin-top: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(44, 15, 235);
+    display: flex;
+}
+
+li {
+    list-style: none;
+    margin: auto 20px auto;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px
+}
+
+li a.currentPage {
+    background-color: rgb(79, 79, 117);
+    padding: 5px;
+}
+
+li a:hover {
+    background-color: lightskyblue;
+    padding: 5px;
+}
+
+.search-bar {
+    margin: auto 20px auto auto;
+}
+
+ul li input:focus {
+    border: 5px solid aqua;
+    outline: none;
+}
+
+/* Link section */
+section {
+    margin: 15px;
+}
+
+section a {
+    display: block;
+}
+
+.link1:hover {
+    color: lightskyblue;
+    font-weight: bold;
+}
+
+.link2:active {
+    color: red;
+    font-style: italic;
+}
+
+.link3:visited {
+    color: yellow;
+}
+
+section input:focus {
+    border: 3px solid green;
+    width: 200px;
+    /*In de omschrijving van de opdracht staat een width van 20px, maar ik denk dat dit 200px moet zijn daarom heb ik dit aangepast!*/
+    outline: none;
+}
